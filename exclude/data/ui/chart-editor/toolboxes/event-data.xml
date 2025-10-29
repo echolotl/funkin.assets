@@ -8,15 +8,10 @@
 			</dropdown>
 		</grid>
 		<frame id="toolboxEventsDataFrame" text="Event Data" width="100%">
-			<grid id="toolboxEventsDataGrid" columns="2" width="100%" />
-		</frame>
-	<frame id="toolboxEventTweenDataFrame" text="Tween Data" width="100%" visible="false">
-		<vbox width="100%">
-			<grid id="toolboxEventTweenDataGrid" columns="2" width="100%" />
 			<vbox width="100%">
+				<grid id="toolboxEventsDataGrid" columns="2" width="100%" />
 				<sprite-wrapper id="tweenEventPreview" width="100" height="100" horizontalAlign="center"/>
 			</vbox>
-		</vbox>
-	</frame>
+		</frame>
 	</vbox>
 </collapsible-dialog>
